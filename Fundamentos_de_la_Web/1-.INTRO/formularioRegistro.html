@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="for.python" method="post">
+        <div id="datosPersonales">
+            Nombre: *
+            <input type="text"> <br>
+            Apellido: *
+            <input type="text"><br>
+            Correo: *
+            <input type="text">
+        </div>
+    
+        <div id="credenciales">
+            Contraseña: *
+            <input type="password"><br>
+            Confirmar Contraseña: * 
+            <input type="password">
+        </div>
+        
+        <div id="cumpleaños">
+            Cumpleaños: <input type="date">
+        </div>
+        
+        <div id="genero">
+            Identidad de genero: *<br>
+            <input type="radio" id="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="noBinario">
+            <label for="noBinario">No binarie</label>
+            <input type="radio" id="noResponde">
+            <label for="noResponde">Prefiero no contestar</label>
+        </div>
+    
+        <div id="miDescripcion">
+            Una breve descripción de mi: <br>
+            <textarea name="descripcion" cols="30" rows="10"></textarea>
+        </div>
+    
+        <div id="lenguajeFavorito">
+            Lenguaje Favorito:
+            <select>
+                <option value="javascript">JavaScript</option>
+                <option value="java">Java</option>
+                <option value="python">Python</option>
+            </select>
+        </div>
+    
+        <div id="acuerdo">
+            <input type="checkbox"> Sí, me gustaria recibir correos periodicos de noticias.
+        </div>
+    
+        <div id="crearCuenta">
+            <input type="submit" value="Crear cuenta">
+        </div>
+        
+        <div id="nota">
+            <h5>* Indica los campos obligatorios</h5>
+        </div>
+    </form>
+
+</body>
+</html>
