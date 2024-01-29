@@ -1,0 +1,29 @@
+
+div{
+    margin: 10px;
+}
+
+#search{
+    color: #149c9e;
+    border-color: #149c9e;
+    border-radius: 10px;
+    width: 120px;
+}
+
+#plus{
+    color: white;
+    border:none;
+    border-radius: 50%;
+    background-color: #01d1b2;
+    width: 30px;
+    height: 30px;
+}
+
+#create-account{
+    height: 30px;
+    width: 150px;
+    background-color: #2b78e4;
+    color: #eff5fd;
+    border-color: black;
+    box-shadow: 3px 3px black;
+}
